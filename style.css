@@ -1,0 +1,39 @@
+:root {
+  --pink: #de3f8c;
+  --bg: #000000;
+  --shadow: 0 2px 2px rgb(0, 0, 0 / 0.5);
+}
+
+body {
+  font-size: 1.2rem;
+  font-family: "Work Sans", sans-serif;
+  min-height: 2000px;
+}
+
+.hero {
+  min-height: 100vh;
+  background-color: var(--bg);
+}
+
+.hero h1 {
+  font-size: 6rem;
+  font-family: "Sacramento", cursive;
+}
+
+.hero h4 {
+  font-size: 1.6rem;
+}
+
+.hero p {
+  font-size: 1.4rem;
+}
+
+.hero a {
+  color: var(--pink);
+  background-color: white;
+}
+
+.hero a:hover {
+  color: white;
+  background-color: var(--pink);
+}
